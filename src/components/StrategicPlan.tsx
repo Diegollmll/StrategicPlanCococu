@@ -1,7 +1,7 @@
 "use client"
 
-import React, { createContext, useContext, useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import React, {useState, useEffect } from 'react';
+// import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Image from 'next/image';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'; 
 import { translations } from '@/translations';
